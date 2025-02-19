@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    width: min(70dvh, 600px);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+button{
+    width: 7rem;
+    padding: 10px;
+    font-weight: bold;
+}
+#options-container{
+    margin-bottom: 20px;
+}
+.selected{
+    background-color: green;
+    color: white;
+    border: 1px solid greenyellow;
+}
+#computer-input{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#result-container{
+    display: none;
+    width: 100%;
+}
+#result{
+    color: white;
+    padding: 10px;
+}
